@@ -1,0 +1,222 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  color: #333;
+  background-color: #fdfdfd;
+}
+
+.hero {
+  background-color: #e8f5e9;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url('hero.jpg'); /* 差し込み用 */
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.hero-text p {
+  font-size: 1.5rem;
+}
+
+section {
+  padding: 4rem 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+section h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+footer {
+  background-color: #eee;
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+}
+
+.sale-content {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.sale-content img {
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.sale-text {
+  flex: 1;
+}
+
+.column-img {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 1rem auto;
+  border-radius: 8px;
+}
+
+body {
+  font-family: 'Lora', serif;
+}
+
+.hero-text h1 {
+  font-family: 'Lora', serif;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  animation: fadeIn 1s ease-out forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@media (max-width: 768px) {
+  .sale-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .sale-content img {
+    max-width: 100%;
+  }
+}
+
+.en {
+  font-size: 0.9em;
+  color: #666;
+  font-style: italic;
+}
+
+
+.contact-form {
+  padding: 4rem 2rem;
+  max-width: 600px;
+  margin: auto;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 0.8rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.contact-form button {
+  padding: 0.8rem;
+  background-color: #CCCCCC;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #EEEEEE;
+}
+
+.contact-link {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: #1E5A99;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.contact-link:hover {
+  background-color: #004E8A;
+}
+
+
+.faq-grid {
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.faq-ja, .faq-en {
+  flex: 1;
+  min-width: 300px;
+}
+
+.faq-ja ul, .faq-en ul {
+  list-style: none;
+  padding: 0;
+}
+
+.faq-ja li, .faq-en li {
+  margin-bottom: 20px;
+}
+
+.contact-link .en {
+  color: #ffffff;
+}
+
+.back-to-top {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.back-to-top a {
+  display: inline-block;
+  background-color: #1E5A99; /* 濃いめブルー */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-top a:hover {
+  background-color: #004E8A;
+}
+
+.back-to-top {
+  text-align: center;
+  margin: 40px 0; /* 上下に余白を追加 */
+}
+
+.contact-heading {
+  text-align: center;
+}
+
+
+
+
+
+
+
